@@ -61,9 +61,8 @@ public class Multilista
             if (aux != null) {
                 Borra(s, nivel + 1, aux.getAbajo(), n);
                 aux.setAbajo(n[0]);
-            } else {
+            } 
                 n[0] = r;
-            }
         }
 
     }
